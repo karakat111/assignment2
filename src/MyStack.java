@@ -1,4 +1,4 @@
-public class MyStack public class MyStack<T> {
+public class MyStack<T> {
     private MyLinkedList<T> list = new MyLinkedList<>();
 
     public void push(T item) {
@@ -22,5 +22,4 @@ public class MyStack public class MyStack<T> {
     public int size() {
         return list.size();
     }
-}{
 }
